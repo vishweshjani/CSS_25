@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            background-color: aqua;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+            border: 1px solid whitesmoke;
+            width: 280px;
+            padding: 50px;
+            border-radius: 10px;
+            background-color: whitesmoke;
+            box-shadow: 5px 5px 5px blue;
+
+        }
+
+        input[type="text"],
+        input[type="passward"]{
+            padding: 8px;
+            margin-bottom: 10px;
+            width: 100%;
+            border: 1px solid #aaa;
+        }
+
+        label{
+            font-weight: bold;
+        }
+
+        button{
+            background-color: greenyellow;
+        }
+
+        .button-container{
+            text-align: center;
+        }
+
+       .button-container button{
+             padding: 5px 10px;
+        }
+
+        .button-container button[type="reset"]{
+            background-color: crimson;
+             
+        }
+
+        .button-container button:hover{
+            background-color: rgb(29, 9, 141);
+            cursor: pointer;
+        }
+
+        a{
+            color: red;
+        }
+
+        a:hover{
+            color: greenyellow;
+        }
+
+        .footer{
+            margin-top: 10px;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="box">
+        <form action="" method="post">
+        <label for="UserName">UserName : </label>
+        <input type="text" id="UserName" name="UserName" placeholder="PLEASE ENTER USERNAME">
+        
+        <label for="passward">passward : </label>
+        <input type="passward" id="passward" name="passward" placeholder="PLEASE ENTER PASSWARD">
+
+        <div class="button-container">
+            <button type="submit">LOGIN</button>
+            <button type="reset">RESET</button>
+        </div>
+        </form>
+         <div class="footer">
+        New User?<a href="login2.html">Register</a>
+    </div>
+
+    </div>
+
+   
+</body>
+</html>

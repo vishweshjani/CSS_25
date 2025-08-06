@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            background-color: aqua;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+
+        }
+
+        .master{
+            border: 1px solid whitesmoke;
+            width: 300px;
+            padding: 50px;
+            border-radius: 10px;
+            background-color: whitesmoke;
+            box-shadow: 5px 5px 5px blue;
+        }
+
+        label{
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="gender"],
+        input[type="password"]{
+            padding: 8px;
+            margin-bottom: 10px;
+            width: 100%;
+            border: 1px solid #aaa;
+        }
+
+        select{
+            padding: 8px;
+            margin-bottom: 10px;
+            width: 100%;
+            border: 1px solid #aaa;
+        }
+
+        textarea{
+            padding: 8px;
+            margin-bottom: 10px;
+            width: 100%;
+            border: 1px solid #aaa;
+        }
+
+        input[type="file"] {
+            margin-top: 5px;
+            margin-bottom: 13px;
+        }
+
+        button {
+            width: 48%;
+            padding: 10px;
+            margin-top: 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+             font-weight: bold;
+        }
+
+        button[type="submit"] {
+            background-color: #0099ff;
+            color: white;
+        }
+
+        button[type="reset"] {
+            background-color: #ff4d4d;
+            color: white;
+            float: right;
+        }
+
+        button:hover{
+            color: greenyellow;
+            background-color: darkorchid;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="master"> 
+        
+        <form action="" method="post">
+            <label for="fullname">Full Name :</label>
+            <input type="text" name="fullname" id="fullname">
+
+            <label for="email">E-mail :</label>
+            <input type="email" name="email" id="email">
+
+            <label for="Mobile">Mobile Number :</label>
+            <input type="tel" name="Mobile" id="Mobile">
+
+            <label for="dob">Date of Birth :</label>
+            <input type="date" name="dob" id="dob">
+
+            <label for="gender">Gender :</label><br>
+            <input type="radio" name="gender" id="gender" value="male"> Male
+            <input type="radio" name="gender" id="gender" value="female"> Female
+            <input type="radio" name="gender" id="gender" value="other"> other <br><br>
+
+            <label for="city">City :</label>
+            <select name="city" id="city">
+                <option value="ahmedabad">Ahmedabad</option>
+                <option value="surat">Surat</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="skills">Skills :</label><br>
+            <input type="checkbox" name="skills" value="Java"> Java
+            <input type="checkbox" name="skills" value="Python"> Python
+            <input type="checkbox" name="skills" value="HTML"> HTML
+            <input type="checkbox" name="skills" value="CSS"> CSS <br><br>
+
+            <label for="address">Address :</label>
+            <textarea name="address" id="address"></textarea>
+
+            <label for="photo">Upload Profile Photo :</label>
+            <input type="file" id="photo" name="photo">
+
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password">
+
+            <label for="confirmpassword">Confirm Password :</label>
+            <input type="password" name="confirmpassword" id="confirmpassword">
+
+            <button type="submit">SIGN UP</button>
+            <button type="reset">CLEAR</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
