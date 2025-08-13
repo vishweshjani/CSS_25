@@ -1,0 +1,84 @@
+table {
+
+    text-align: center;
+    height: 400px;
+    width: 800px;
+    border-collapse: collapse;
+}
+
+body {
+    background-color: bisque;
+}
+
+.box {
+    background-color: white;
+    width: 800px;
+    padding: 15px;
+    
+
+}
+
+td {
+    border-top: 1px solid rgb(193, 175, 175);
+}
+
+th {
+    border-bottom: 2px solid #aaa;
+}
+tr:hover{
+    background-color: rgb(204, 198, 190);
+
+}
+.fa-trash{
+    color: red;
+    background-color: rgb(241, 169, 169);
+    padding: 10px;
+    height: 15px;
+    width: 15px;
+    border-radius: 5px;
+}
+.fa-pen-to-square{
+    color: blue;
+    background-color: rgb(173, 165, 249);
+    padding: 10px;
+    height: 15px;
+    width: 15px;
+    border-radius: 5px;
+}
+button{
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    border: 0px;
+    padding: 5px;
+    width: 100px;
+}
+.cancel{
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.pending{
+    background-color: gold;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+
+}
+button:hover{
+    color: darkred;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.roundImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-content: center;
+}
