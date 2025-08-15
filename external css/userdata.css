@@ -1,10 +1,9 @@
 table {
 
     text-align: center;
-    height: 400px;
-    width: 800px;
+    height: 500px;
+    width: 1300px;
     border-collapse: collapse;
-    text-align: left;
     
 }
 
@@ -18,7 +17,6 @@ body {
 
 .box {
     background-color: white;
-    width: 800px;
     padding: 15px;
     border-radius: 10px;
 
@@ -30,6 +28,7 @@ td {
 
 th {
     border-bottom: 2px solid #aaa;
+    height: 75px;
 }
 
 tr:hover{
@@ -91,8 +90,8 @@ button:hover{
 
 .action-btn {
       display: inline-block;
-      font-size: 18px;
+      font-size: 19px;
       color: #6a5acd;
       cursor: pointer;
-      margin: 0 5px;
+      margin: 10px 5px;
     }
